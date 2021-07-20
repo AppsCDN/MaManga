@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.alvayonara.mamanga.ui.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard"></fragment>
+
+    <fragment
+        android:id="@+id/navigation_discover"
+        android:name="com.alvayonara.mamanga.ui.discover.DiscoverFragment"
+        tools:layout="@layout/fragment_discover"></fragment>
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.alvayonara.mamanga.ui.favorite.FavoriteFragment"
+        tools:layout="@layout/fragment_favorite"></fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.alvayonara.mamanga.ui.history.HistoryFragment"
+        tools:layout="@layout/fragment_history"></fragment>
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.alvayonara.mamanga.ui.more.MoreFragment"
+        tools:layout="@layout/fragment_more"></fragment>
+</navigation>

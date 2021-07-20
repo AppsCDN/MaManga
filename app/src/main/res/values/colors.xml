@@ -5,6 +5,7 @@
     <color name="grey">#4F4F4F</color>
     <color name="semi_black">#1E2027</color>
     <color name="black">#17181C</color>
+    <color name="grey_unselected_bottom_nav">#828282</color>
 
     <color name="blue_50">#E3F2FD</color>
     <color name="blue_100">#BBDEFB</color>
